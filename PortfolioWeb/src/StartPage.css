@@ -1,0 +1,29 @@
+.body{
+    background-color: #DBE2DF;
+}
+
+#background{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+}
+
+#infoGrid{
+    grid-row:2;
+    grid-column:1;
+    background-color:#D3CBCB;
+
+}
+
+#pictureGrid{
+    grid-row:1/2;
+    grid-column:1;
+    background-color:#EAC5CA;
+
+}
+#bottomGrid{
+    grid-row:3;
+    grid-column:1;
+}
